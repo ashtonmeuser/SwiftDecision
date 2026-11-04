@@ -5,10 +5,8 @@ import PackageDescription
 let package = Package(
     name: "SwiftDecision",
     platforms: [
-        .iOS(.v15),
-        .macOS(.v10_15),
-        .tvOS(.v13),
-        .watchOS(.v6),
+        .iOS(.v26),
+        .macOS(.v26),
     ],
     products: [
         .library(name: "SwiftDecision", targets: ["SwiftDecision"]),
